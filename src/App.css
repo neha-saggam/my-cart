@@ -1,12 +1,40 @@
 .App {
   text-align: center;
+  background-color: #191946;
 }
 
+.header {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.nav-menu-items .nav-item{
+  color: white;
+}
+
+.nav-menu-items {
+  display: flex;
+  justify-content: space-between;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.main {
+  background-color: white;
+}
 
+.main .products {
+  display: flex;
+  justify-content: space-around;
+}
+
+.product-image {
+  height: 100px;
+  width: 100px;
+  background-color: darkgrey;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,7 +42,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
